@@ -1,0 +1,217 @@
+:root{
+  --light-blue : #76c7c0;
+  --blue : #72b4c5;
+  --dark-blue : #5694a3;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  /* background: linear-gradient(to right, #74ebd5, #acb6e5); */
+  margin: 0;
+  /* padding: 20px; */
+  color: #333;
+}
+
+.back-container{
+  background-image: linear-gradient(135deg, var(--light-blue), var(--dark-blue));
+  height: 80vh;
+  display: flex;
+  margin: 50px;
+  border-radius: 20px;
+}
+
+.container {
+  max-width: 720px;
+  margin: auto;
+  margin-top: 50px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.356);
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.goal-input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+select, input[type="number"], button {
+  padding: 10px;
+  border: 2px solid #76c7c0;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+select:focus, input[type="number"]:focus {
+  border-color: #4db8b1;
+}
+
+button {
+  background-color: #76c7c0;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4db8b1;
+}
+
+.progress-container {
+  margin-bottom: 20px;
+}
+
+#progressBarContainer {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#progressBar {
+  height: 100%;
+  background: #76c7c0;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+}
+
+.goals-set {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #76c7c0;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #76c7c0;
+  color: white;
+}
+
+.completed-goals {
+  margin-top: 20px;
+}
+
+.completed-goals ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.completed-goals li {
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+/* nav bar */
+
+#header{
+  opacity: 2;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.rem 10%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  z-index: 100;
+  border-bottom: 7px solid #6cb79d;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  /* grid-row: 1; */
+}
+
+#header::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  z-index: -1;
+}
+
+.navtab a{
+  font-size: 1.15rem;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 2.5rem;
+  display: inline-block;
+}
+
+#navbarCollapse a:hover{
+  color: #6cb79d;
+}
+
+.icons{
+  width: 3rem;
+
+}
+.Name{
+  text-transform: uppercase;
+  font-size: 6vh;
+}
+
+#check{
+  display: none;
+}
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+} */
+
+#Name {
+  display: none;
+  position: fixed;
+  right: 3em;
+  top: 1.5em;
+  font-size: 1rem;
+}
+
+#ShowStatsLink {
+  display: none;
+}
+
+#ShowExcersiseLink {
+  display: none;
+}
+
+#ShowGoalsLink {
+  display: none;
+}
