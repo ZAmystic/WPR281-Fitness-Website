@@ -77,7 +77,7 @@ All data is handled locally via JavaScript for privacy and speed, with potential
 
 ## 🤝 Contributing
 
-Contributions are welcome! Fork the repo, make enhancements (e.g., new chart types or goal options), and submit a pull request. Follow standard web dev best practices and include comments in your code.
+Contributions are welcome! Fork the repo, make enhancements (e.g., new chart types or goal options), and submit a pull request. 
 
 ⚡ Built with passion for self-improvement and full-stack development.  
 🎯 This project is part of my portfolio for showcasing frontend design, UX thinking, and JavaScript skills. 🚀
