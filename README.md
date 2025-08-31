@@ -6,18 +6,22 @@ A dynamic, responsive multi-page web application empowering users to manage thei
 
 Elite Fitness transforms your browser into a personal fitness hub, helping you log exercises, monitor progress, and celebrate milestones. Whether you're a beginner aiming to build habits or a seasoned athlete tracking performance, this app delivers real-time insights and encouragement. Built as a frontend showcase, it highlights seamless UX design, JavaScript interactivity, and data visualization, with hooks for future backend integration.
 
+### Home Page
 <div align="center">
   <img height="550px" src="https://cdn.discordapp.com/attachments/1409660132521939116/1411843053999755264/Screenshot_2025-09-01_003823.png?ex=68b620ce&is=68b4cf4e&hm=e420f8c8982f4abf78343e57237f8f5456e78e9bb7d1fbea4b05a8b8d82a1cd2&">
 </div>
 
+### Workout Logger
 <div align="center">
   <img height="550px" src="https://cdn.discordapp.com/attachments/1409660132521939116/1411843054494814330/Screenshot_2025-09-01_003841.png?ex=68b620ce&is=68b4cf4e&hm=509cecf8ae4a9899c33efd2f61330d90a27bfa55ba2dbb0b5fcb56393a7833f6&">
 </div>
 
+### Fitness Tracker
 <div align="center">
   <img height="550px" src="https://cdn.discordapp.com/attachments/1409660132521939116/1411843054888812584/Screenshot_2025-09-01_003907.png?ex=68b620cf&is=68b4cf4f&hm=3b5fb9ecb0e0ef53b4d56f2f43d1635b2cbe8cafb5457830a5924f43bc4f6370&">
 </div>
 
+### Workout Charts
 <div align="center">
   <img height="550px" src="https://media.discordapp.net/attachments/1409660132521939116/1411843055291728034/Screenshot_2025-09-01_003919.png?ex=68b620cf&is=68b4cf4f&hm=029434006305f0327dbc60fb302616f952cc58eb41d54c74e6988d29c5401913&=&format=webp&quality=lossless&width=1663&height=856">
 </div>
